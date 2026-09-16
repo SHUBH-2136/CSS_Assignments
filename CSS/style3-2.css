@@ -1,0 +1,60 @@
+/* Element Selectors  */
+/* p{
+    color: yellow;
+    background-color: black;
+}
+h2{
+    color: white;
+    background-color: black;
+} */
+
+/* ID Selectors */
+/* #p1Id{
+    color: red;
+    background-color: black;
+}
+#p2Id{
+    color: goldenrod;
+    background-color: black;
+} */
+
+/* Nested Selectors */
+/* #p1Id, #p2Id, .p1Class{We can use it as this as well} */
+
+/* Class Selectors */
+/* .p1Class{
+    background-color: yellow;
+}
+.p2Class{
+    font-family: cursive;
+} */
+
+
+/* Priority Order:- ID > Class > Element */
+/* #nestedid{
+    color: red;
+}
+.nestedclass{
+    color: green;
+}
+p{
+    color: blue;
+} */
+
+/* Universal Selectors */
+/* *{
+    font-family: cursive;
+    color: green;
+} */
+ 
+#descendent p{
+    color: aqua;
+}
+
+/* Direct Child Selectors */
+#direct > p{
+    color: red;
+}
+p:hover{
+    color: blue;
+}
