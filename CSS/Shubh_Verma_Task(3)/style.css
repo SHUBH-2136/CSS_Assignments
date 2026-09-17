@@ -1,0 +1,27 @@
+body{
+    background-color: orange;
+}
+#bglime{
+    background-color: lime;
+}
+p{
+    color: white;
+}
+#para{
+    color: green;
+}
+#art2 > a{
+    background-color: purple;
+}
+#li1 > a{
+    background-color: yellow;
+}
+#li2 > a{
+    background-color: purple;
+}
+ul{
+    color: white;
+}
+.head{
+    color: darkblue;
+}
